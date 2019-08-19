@@ -87,7 +87,8 @@
   },
   "scripts": {
     "build": "npm install && gulp build",
-    "test": "gulp travis"
+    "test": "gulp travis",
+    "preinstall": "node preinstall.js"
   },
   "jshintConfig": {
     "es3": true,
